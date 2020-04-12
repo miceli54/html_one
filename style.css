@@ -1,0 +1,30 @@
+html {
+  font-family: sans-serif;
+}
+li {
+  font-size: 24px;
+}
+.redirect {
+  font-size: 28px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.flex-container > div {
+  background-color: grey;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.fish,
+.bug {
+  font-size: 24px;
+  font-weight: bold;
+}
+.fish_details,
+.bug_details {
+  font-size: 14px;
+}
